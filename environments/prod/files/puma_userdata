@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/local/sbin/ansible-pull -d /root/ansible -U XXX -C prod -i inventory/prod --accept-host-key --purge playbooks/prod/pull/puma.yml
